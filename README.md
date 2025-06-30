@@ -1,5 +1,5 @@
 # SilverArrow
-silverArrow
+Project silverArrow
 
 "stealthy, protective, mythologically direct"
 
