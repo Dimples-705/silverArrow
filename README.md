@@ -4,9 +4,8 @@ silverArrow
 "stealthy, protective, mythologically direct"
 
 Description:
-Project silverArrow is an application, inspired by the Greek gods Apollo or Artemis, that reduces the attack surface and guards the Confidentiality, Integrity, and Availability of users data from invasive Cookies and CRM's. In Greek Mythology Artemis’s symbolizes "defense, stealth, and safeguarding the vulnerable." Her signature weapon is the bow and arrows. They symbolize her prowess as the goddess of the hunt and her role as a protector of the wild and the vulnerable. 
-
-
+Project silverArrow is an application, inspired by the Greek goddess Artemis, that reduces the attack surface and guards the Confidentiality, Integrity, and Availability of users data from invasive Cookies and CRM's. 
+In Greek Mythology Artemis’s symbolizes "defense, stealth, and safeguarding the vulnerable." Her signature weapon is the bow and arrows. They symbolize her prowess as the goddess of the hunt and her role as a protector of the wild and the vulnerable. 
 
 
 Project Notes:
@@ -27,10 +26,11 @@ Project Notes:
 4. Define Blocking Rules
 Maintain a configuration file (e.g., blocklist.properties) with:
 
+<pre>
 text
 blocked.domains=tracking.crm.com, ads.example.org
 blocked.cookies=evercookie, Facebook Pixel, DoubleClick (IDE, DSID),crosswire, Google Analytics (_ga, _gid, _gat)
-
+</pre>
 
 
 
