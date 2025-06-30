@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>SILVER ARROW</title>
+  <link rel="stylesheet" href="CSS/styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Muli%7CRoboto:400,300,500,700,900" rel="stylesheet"></head>
+  
+    <header>
+    <h1>PROJECT SILVER ARROW</h1>
+      <img src="image.png" alt="Silver Arrow Logo" class="circular-image">
+      
+    </header>
+</head>
+
+<body>
+    <center>
+<main>
+</p>
+    </main>
+  
+ <article>
+     <div class="box2" id="rcorners4">     
+    <center><p><h3><u> PROJECT SILVER ARROW:</u></h3>
+<br><i>
+"Safeguarding the vulnerable"</i>
+<br>
+<br></center>
+<u>Description:</u>
+<br>
+Project SILVER ARROW is an application, inspired by the Greek goddess Artemis, that reduces the attack surface and guards the Confidentiality, Integrity, and Availability of users data from invasive Cookies and CRM's. 
+<br>
+<br>In Greek Mythology Artemis’s symbolizes "defense, stealth, and safeguarding the vulnerable." Her signature weapon is the bow and arrows. They symbolize her prowess as the goddess of the hunt and her role as a protector of the wild and the vulnerable. 
+<br>
+<br>
+<u>Project Notes:</u>
+<br>
+1. Integrate Components
+-Initialize CookieManager with BlacklistCookiePolicy at app startup.
+-Register CookieBlockerFilter in your servlet container (e.g., Tomcat).
+<br>
+<br>
+2. Combat Evercookie-Style Persistence
+-Prevent cookie resurrection: Clear all storage mechanisms (LSO, IndexedDB) via JavaScript injection (requires embedded browser engine like JCEF).
+-Block storage APIs using a Proxy to intercept localStorage/sessionStorage calls.
+<br>
+<br>
+3. Limitations and Considerations
+-Browser-Level Restrictions: Java apps can’t directly modify browser storage; use embedded browsers (JCEF) for full control.
+-CRM Tracking Evasion: Block known CRM endpoints via DNS filtering (e.g., integrate with dnsjava).
+-Performance: Cookie inspection adds ~5-10ms latency per request (optimize with caching).
+<br>
+<br>
+4. Define Blocking Rules
+Maintain a configuration file (e.g., blocklist.properties) with:
+<br>
+<br>
+<code>
+code snippet:
+<pre>
+text
+blocked.domains=tracking.crm.com, ads.example.org, "placeholders"<!-- Attention: Proprietary code was removed for public Beta release -->
+blocked.cookies=evercookie, DoubleClick (IDE, DSID),"placeholders", "placeholders", "placeholders"
+<!--"placeholders" for "Mark Pixel", "ABCD Analytics" - Attention: Proprietary 
+code was removed for public Beta release -->
+</pre>
+
+//The code above was removed or edited from the SILVERARROW BETA repo, 
+this is only a clone and test run for PROJECT SILVERARROW.
+The SILVERARROW BETA is set to public view on Dimples-705 Github Repository.//
+
+</code>
+<br>
+<br>
+
+<center><b>Dimples Research LLC, 2025</b></center>
+
+        
+    </div>
+        </article>
+
+<br>
+<br>
+<br>
+           <article>
+     <div class="box" id="rcorners1">      
+            <center><h2><u>CONFIDENTIALITY:</u></h2></center>    
+
+    <p>Ensures that information is accessible only to those authorized 
+        <br>to have access, and prevents unauthorized disclosure of information.
+        <br><br><b>Examples:</b>Encryption, access controls, MFA
+    </div>
+        </article>
+        <br>
+        <br>
+        <br>
+        <article> 
+    <div class="box" id="rcorners2">      
+            <center><h2><u>INTEGRITY:</u></h2></center>    
+
+    <p>Maintains the accuracy, consistency, and trustworthiness of data 
+        <br>throughout its lifecycle.  Integrity is important because it protects 
+        <br>against unauthorized modifications or destruction of data.
+        <br><br><b>Examples:</b>Hashing, digital signatures, audit logs
+    </div>
+        </article>
+        <br>
+        <br>
+        <br>  
+    <div class="box" id="rcorners3">      
+            <center><h2><u>AVAILABILITY:</u></h2></center>    
+
+    <p>Ensures that authorized users have reliable and timely access to 
+        <br>information and systems.  Availability is important because it ensures 
+        <br>information and resources are accessible when needed.
+        <br><br><b>Examples:</b>Backups, redundancy, DDoS protection
+    </div>
+        </article>
+        <br>
+        <br>
+        <br>
+</center>
+</body>
+
+<footer>
+    <img src="images/dimples.png" alt="dimples_logo" class="circular-image">
+<h3>Dimples Research LLC, 2025</h3>
+    <div><a href="index.html">HOME</a></div>
+</footer>
+
+</html>
+

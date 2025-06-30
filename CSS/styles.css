@@ -1,0 +1,162 @@
+header {
+    text-align: center;
+    background: top center ;
+    background-size: cover;
+    overflow: hidden;
+    padding-top: 60px;
+  }
+  header {
+    line-height: 1.4;
+  }
+  /*Experimenting with some of the CSS tools here. Some are not reflective in the actual website in the browser.  Thank you for your patience and understanding.  */
+  
+  header .profile-image {
+    margin-top: 50px;
+    width: 140px;
+    height: 140px;
+    border-radius: 40%;
+    border: 3px solid rgb(5, 5, 147);
+    transition: all .5s;
+  }
+  header .profile-image:hover {
+    transform: scale(1.4) rotate(9deg);
+  }
+
+  .topnav {
+    background-color: #330;
+    overflow: hidden;
+
+
+  }
+/*add a black background to the nav menu and make it horizontal*/
+.topnav a {
+  float: left;
+  color: rgb(230, 227, 233);
+  text-align: center;
+  padding: 12px 14px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+/* add color to the current link */
+.topnav a.active {
+  background-color: #097509;
+  color: rgb(246, 246, 243);
+
+}
+
+.topnav a:hover {
+  background-color: darkred;
+  color: black;
+
+}
+
+
+body {
+
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  color: #0f0e0e;
+  background: #333335;
+  background: top center ;
+}
+
+/* I am experimenting with CSS styling for the "Pro Sports Teams" table on index.html 
+"Home Page" to try and center the table and align it with the rest 
+of the body   */
+table {
+  margin: 10px auto;  /* This centers the table to show a cleaner appearance with the page*/
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  width: 50%;
+}
+
+.rounded-image {
+    border-radius: 15px; /* Adjust this value for more or less rounding */
+    width: 200px; /* Optional: Set a width for your image */
+    height: auto; /* Optional: Maintain aspect ratio */
+  }
+
+ .triangle-right {
+    width: 0;
+    height: 0;
+    border-top: 50px solid transparent;      /* Top transparent border */
+    border-bottom: 50px solid transparent;   /* Bottom transparent border */
+    border-left: 100px solid #4CAF50;        /* This side forms the triangle */
+    /* Adjust width/height of borders for different triangle shapes and sizes */
+    /* Change the color of border-left to your desired triangle color */
+  }
+
+  .circular-image {
+    border-radius: 50%; /* Makes the image perfectly circular if it's square */
+    width: 200px; /* Make sure width and height are the same for a perfect circle */
+    height: 200px;
+    object-fit: cover; /* Ensures the image covers the entire circular area without distortion */
+  }
+
+.box {
+  border: solid black 2px;
+  max-width: 500px;
+  max-height: 300px;
+  padding: 10px;
+  margin: 20px;
+  text-align: left;
+}
+
+.box2 {
+  border: solid black 2px;
+  max-width: 800px;
+  max-height: 800px;
+  padding: 10px;
+  margin: 20px;
+  text-align: left;
+}
+/* Link Styles */
+#rcorners1 {
+  border-radius: 15px 50px 30px 5px;
+  background: radial-gradient(circle at 50% 20%, #FFFFFF, #E0E0E0 30%, #C0C0C0 60%, #808080);
+  padding: 20px; 
+  width: 500px;
+  height: 200px;
+}
+
+#rcorners2 {
+  border-radius: 15px 50px 30px;
+  background: radial-gradient(circle at 50% 20%, #FFFFFF, #E0E0E0 30%, #C0C0C0 60%, #808080);
+  padding: 20px; 
+  width: 500px;
+  height: 200px; 
+}
+
+#rcorners3 {
+  border-radius: 15px 50px;
+  background: radial-gradient(circle at 50% 20%, #FFFFFF, #E0E0E0 30%, #C0C0C0 60%, #808080);
+  padding: 20px; 
+  width: 500px;
+  height: 200px; 
+} 
+
+#rcorners4 {
+  border-radius: 15px 30px;
+  background: radial-gradient(circle at 50% 20%, #FFFFFF, #E0E0E0 30%, #C0C0C0 60%, #808080);
+  padding: 20px; 
+  width: 800px;
+  height: 800px; 
+} 
+
+fieldset {
+    display: block;
+    margin-right: 3px;
+    margin-left: 3px;
+    padding-top: 0.25em;
+    padding-bottom: 0.655ex;
+    padding-right: 0.65em;
+    padding-left: 0.65em;
+    border: 2px groove (internal value);
+}
+footer {
+  width: 100%;
+  min-height: 30px;
+  padding: 20px 0 40px 20px;
+  color: white;
+  background: #03010d;
+}
