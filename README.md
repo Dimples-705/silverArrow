@@ -36,6 +36,6 @@ blocked.cookies=evercookie, DoubleClick (IDE, DSID),<!--"placeholders" for "Mark
 **The code above was removed or edited from the SILVERARROW BETA repo, this is the clone of PROJECT SILVERARROW that is public to view on Github.//
 
 
-                                           Dimples Research LLC, 2025
+                                           Dimples Research, 2025
 
 
