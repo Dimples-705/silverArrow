@@ -22,4 +22,8 @@ public class BlacklistCookiePolicy implements CookiePolicy {
     }
 }
 
+//
+//**The code above was removed or edited from the SILVERARROW BETA repo, 
+//this is the clone of PROJECT SILVERARROW that is public to view on Github.//
+
 
