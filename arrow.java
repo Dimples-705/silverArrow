@@ -18,7 +18,7 @@ public class BlacklistCookiePolicy implements CookiePolicy {
         return !blockedDomains.contains(domain) 
                && !cookie.getName().contains("placeholder_cookie") 
                && !cookie.getName().contains("placeholder_cookie");
-               //"placeholder_cookie" represents Proprietary code that was removed for public Beta release
+               //"placeholder_cookie" represents Proprietary code that was removed for Beta release
     }
 }
 
