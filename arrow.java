@@ -1,9 +1,9 @@
 
 //Use Java's CookieManager and CookiePolicy to implement domain-specific blocking:
 
-//Create a BlacklistCookiePolicy to reject cookies from CRM/tracking domains (e.g., *.crmtracker.com).
+//Create a BlacklistCookiePolicy to reject cookies from persistent cookie urls & domains 
 
-//Override shouldAccept() to filter cookies by domain or name patterns (e.g., "evercookie", "larry's_cookie", "Marc's_cookie").//
+//Override shouldAccept() to filter cookies by domain or name patterns (e.g., "supercookie", "persistent cookie").//
 
 public class BlacklistCookiePolicy implements CookiePolicy {
     private final Set<String> blockedDomains;
