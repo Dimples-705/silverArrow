@@ -3,7 +3,7 @@
 
 //Create a BlacklistCookiePolicy to reject cookies from CRM/tracking domains (e.g., *.crmtracker.com).
 
-//Override shouldAccept() to filter cookies by domain or name patterns (e.g., "evercookie", "larrys_wise_cookie").//
+//Override shouldAccept() to filter cookies by domain or name patterns (e.g., "evercookie", "larry's_cookie", "Marc's_cookie").//
 
 public class BlacklistCookiePolicy implements CookiePolicy {
     private final Set<String> blockedDomains;
